@@ -11,6 +11,7 @@ public class LinkNet
 {
 	private Link root;
 	private int numberOfFiles, numberOfFolders;
+	String indentationBy = "| ";
 
 	public LinkNet(File root)
 	{
@@ -59,7 +60,7 @@ public class LinkNet
 			// first print the subfolder formatted line
 			System.out.println(subFolder.getString(indent));
 			// increase the indentation
-			indent += "| ";
+			indent += this.indentationBy;
 			// do recursion
 			print(subFolder, indent);
 			// then decrease the indentation
@@ -81,7 +82,7 @@ public class LinkNet
 			// print the rootFolder formatted line
 			System.out.println(root.getNext().getString(indent));
 			// increase the indentation to be used by rootFolder's children
-			indent += "| ";
+			indent += this.indentationBy;
 			print(root.getNext(), indent);
 		}
 	}
