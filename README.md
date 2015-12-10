@@ -20,10 +20,7 @@ The lower part an example shows how it binds together
 
 ### Usage
 
-at cli:
-```sh
-$ java -jar FileSystemBrowser.jar DIRECTORY
-```
+import it in an IDE or as you like :)
 
 DIRECTORY: the directory you want to browse
 
