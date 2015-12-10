@@ -11,7 +11,7 @@ The upper part shows the Link object (Node of the LinkNet) and it has:
 - *parent* : points the the parent Link
 - *previous* : points the the previous Link
 - *next* : points the the next Link
-- *firstSubFolder* : points the the first Link of serial subfolders (assume it as a Linked List)
+- *firstSubFolder* : points the the first Link of serial subfolders (assume it as a Linked List but it isn't)
 - *firstSubFile* : points the the first Link of serial subfiles
 
 The lower part an example shows how it binds together
