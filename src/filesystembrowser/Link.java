@@ -12,10 +12,10 @@ public class Link
 {
 	private Object data;
 	private Link next,
-			prev,
-			firstFolder,	// first child folder
-			firstFile,		// first child file
-			parent;
+		prev,
+		firstFolder,	// first child folder
+		firstFile,		// first child file
+		parent;
 
 	public Link(Object data)
 	{
