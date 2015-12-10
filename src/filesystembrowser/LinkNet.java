@@ -136,4 +136,14 @@ public class LinkNet
 	{
 		this.numberOfFolders = numberOfFolders;
 	}
+
+	public String getIndentationBy()
+	{
+		return indentationBy;
+	}
+
+	public void setIndentationBy(String indentationBy)
+	{
+		this.indentationBy = indentationBy;
+	}
 }
